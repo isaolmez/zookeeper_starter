@@ -1,14 +1,14 @@
-package configurationservice;
+package com.isa.zk.configurationservice;
 
 import java.nio.charset.Charset;
-
-import operations.ConnectionWatcher;
 
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.Watcher;
 import org.apache.zookeeper.ZooDefs.Ids;
 import org.apache.zookeeper.data.Stat;
+
+import com.isa.zk.operations.ConnectionWatcher;
 
 public class ActiveKeyValueStore extends ConnectionWatcher {
 	private static final Charset CHARSET = Charset.forName("UTF-8");

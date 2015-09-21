@@ -1,4 +1,4 @@
-package operations;
+package com.isa.zk.operations;
 
 import java.io.IOException;
 import java.util.concurrent.CountDownLatch;

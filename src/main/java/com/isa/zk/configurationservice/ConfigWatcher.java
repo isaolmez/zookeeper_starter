@@ -1,4 +1,4 @@
-package configurationservice;
+package com.isa.zk.configurationservice;
 
 import java.io.IOException;
 
